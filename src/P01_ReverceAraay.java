@@ -1,7 +1,7 @@
 import java.util.*; 
 import java.io.*; 
 
-public class D01_ReverceAraay {
+public class P01_ReverceAraay {
     public static void reverseArray(ArrayList<Integer> nrr, int m) {
         int n = nrr.size();
         int j = m + 1;
