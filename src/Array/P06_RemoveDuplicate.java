@@ -1,3 +1,4 @@
+package Array;
 public class P06_RemoveDuplicate {
     
     public static int removeDuplicates(int[] nums) {

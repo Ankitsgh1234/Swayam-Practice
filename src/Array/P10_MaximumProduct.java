@@ -1,3 +1,4 @@
+package Array;
 public class P10_MaximumProduct {
     public static int maxProduct(int[] nums) {
         int p=1;

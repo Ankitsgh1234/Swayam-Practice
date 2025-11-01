@@ -1,4 +1,4 @@
-
+package Array;
 public class P07_PivotIndex {
     
     public static int pivotIndex(int[] nums) {

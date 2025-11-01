@@ -1,3 +1,4 @@
+package Array;
 public class P09_MaximumSubarray {
       public static int maxSubArray(int[] nums) {
         int max=Integer.MIN_VALUE;

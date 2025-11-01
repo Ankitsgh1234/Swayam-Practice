@@ -1,3 +1,4 @@
+package Array;
 public class P03_RunningSumOfArray {
     
     public int[] runningSum(int[] nums) {

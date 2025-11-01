@@ -1,3 +1,4 @@
+package Array;
 public class P02_FindinfMinimumAndMaximum {
     
     public static int minimumDeletions(int[] nums) {
