@@ -1,6 +1,6 @@
 package Recursion;
 
-public class P20_Factorial {
+public class P20_Fibb {
     
    public static void main(String[] args) {
     
