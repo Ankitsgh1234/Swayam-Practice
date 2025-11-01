@@ -1,6 +1,6 @@
 package Recursion;
 
-public class Print1ToN {
+public class P16_Print1ToN {
     
   
     public static void pOneToN(int n){

@@ -1,6 +1,6 @@
 package Recursion;
 
-public class ReverceExponential {
+public class P17_ReverceExponential {
    
     public static  int powerOfReverse(int n) {
         int rev = reverse(n);
