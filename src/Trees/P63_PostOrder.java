@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-public class P61_inorderTraversal {
+public class P63_PostOrder {
 
     // Function to build a binary tree from an array (-1 means null)
     public static TreeNode buildTree(int[] arr, int i) {
@@ -27,17 +27,17 @@ public class P61_inorderTraversal {
     }
 
     // Recursive preorder helper
-    public static void inorder(TreeNode root, List<Integer> list) {
+    public static void preorder(TreeNode root, List<Integer> list) {
         if (root == null) return;
-        inorder(root.left, list);
+        preorder(root.left, list);
+        preorder(root.right, list);
         list.add(root.val);
-        inorder(root.right, list);
     }
 
     // Main preorder function
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        inorder(root, result);
+        preorder(root, result);
         return result;
     }
 
@@ -56,8 +56,8 @@ public class P61_inorderTraversal {
         TreeNode root = buildTree(arr, 0);
 
         // Preorder traversal
-        P61_inorderTraversal obj = new P61_inorderTraversal();
-        List<Integer> ans = obj.inorderTraversal(root);
+        P63_PostOrder obj = new P63_PostOrder();
+        List<Integer> ans = obj.preorderTraversal(root);
 
         System.out.println("Preorder Traversal: " + ans);
     }
